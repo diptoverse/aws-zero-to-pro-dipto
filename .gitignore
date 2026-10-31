@@ -1,0 +1,21 @@
+# --- AWS credentials and keys ---
+.aws/
+credentials
+*.pem
+*.key
+*.ppk
+
+# --- Environment / secret files ---
+.env
+.env.*
+!.env.example
+*.secret
+
+# --- Terraform state ---
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# --- macOS ---
+.DS_Store
+
